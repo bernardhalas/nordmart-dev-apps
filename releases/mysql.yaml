@@ -61,7 +61,7 @@ spec:
       name: mysql-pvc
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: default
+      storageClassName: standard
       resources:
         requests:
           storage: 5Gi
