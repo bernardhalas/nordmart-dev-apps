@@ -33,7 +33,6 @@ spec:
       name: mongodb-pvc
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: standard
       resources:
         requests:
           storage: 5Gi
